@@ -13,4 +13,4 @@ RUN /usr/bin/crontab /crontab.txt
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
 
-CMD ["/start.sh"]
+CMD ["/usr/bin/bash", "/start.sh"]
